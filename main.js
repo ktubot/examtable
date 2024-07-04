@@ -102,6 +102,49 @@ const examsDetails = {
         ],
 
     },
+    "S5": {
+        "CS": [
+            { "code": "CST301", "date": "August 25, 2024 09:30:00", "name": "Formal Languages & Automata Theory", "id": 1 },
+            {"code": "CST303", "date": "May 31, 2024 9:30:00", "name": "Computer Networks", "id":2},
+            {"code": "CST305", "date": "June 5, 2024 9:30:00", "name": "System Software", "id":3},
+            {"code": "CST307", "date": "June 10, 2024 9:30:00", "name": "Microprocessors & Microcontrollers ", "id":4},
+            {"code": "CST309", "date": "July 13, 2024 9:30:00", "name": "Management Of Software Systems", "id":5},
+            {"code": "MCN301", "date": "June 18, 2024 9:30:00", "name": "Disaster Management", "id":6},
+        ],
+        "EC": [
+            { "code": "ECT301", "date": "May 25, 2024 9:30:00", "name": "Linear Integrated Circuits", "id": 1 },
+            {"code": "ECT303", "date": "May 31, 2024 9:30:00", "name": "Solid State Devices", "id":2},
+            {"code": "ECT305", "date": "June 5, 2024 9:30:00", "name": "Logic Circuit Design", "id":3},
+            {"code": "ECT307", "date": "June 10, 2024 9:30:00", "name": "Network Theory", "id":4},
+            {"code": "HUT300/HUT310", "date": "July 13, 2024 9:30:00", "name": "IEFT / Management For Engineers", "id":5},
+            {"code": "MCN301", "date": "June 18, 2024 9:30:00", "name": "Disaster Management", "id":6},
+        ],
+        "ME": [
+            { "code": "MET301", "date": "May 25, 2024 9:30:00", "name": "Mechanics Of Machinery", "id": 1 },
+            {"code": "MET303", "date": "May 31, 2024 9:30:00", "name": "Thermal Engineering ", "id":2},
+            {"code": "MET305", "date": "June 5, 2024 9:30:00", "name": "Industrial & Systems Engineering ", "id":3},
+            {"code": "MET307", "date": "June 10, 2024 9:30:00", "name": "Machine Tools And Metrology", "id":4},
+            {"code": "HUT300/HUT310", "date": "July 13, 2024 9:30:00", "name": "IEFT / Management For Engineers", "id":5},
+            {"code": "MCN301", "date": "June 18, 2024 9:30:00", "name": "Disaster Management", "id":6},
+        ],
+        "CE": [
+            { "code": "CET301", "date": "May 25, 2024 9:30:00", "name": "Structural Analysis – I", "id": 1 },
+            {"code": "CET303", "date": "May 31, 2024 9:30:00", "name": "Design Of Concrete Structures", "id":2},
+            {"code": "CET305", "date": "June 5, 2024 9:30:00", "name": "Geotechnical Engineering – II", "id":3},
+            {"code": "CET307", "date": "June 10, 2024 9:30:00", "name": "Hydrology & Water Resources Engineering", "id":4},
+            {"code": "CET309", "date": "July 13, 2024 9:30:00", "name": "Construction Technology & Management", "id":5},
+            {"code": "MCN301", "date": "June 18, 2024 9:30:00", "name": "Disaster Management", "id":6},
+        ],
+        "EE": [
+            { "code": "EET301", "date": "May 25, 2024 9:30:00", "name": "Partial Differential Equation & Complex Analysis", "id": 1 },
+            {"code": "EET303", "date": "May 31, 2024 9:30:00", "name": "Circuits And Networks", "id":2},
+            {"code": "EET305", "date": "June 5, 2024 9:30:00", "name": "Measurements & Instrumentation ", "id":3},
+            {"code": "EET307", "date": "June 10, 2024 9:30:00", "name": "Analog Electronics", "id":4},
+            {"code": "HUT300/HUT310", "date": "July 13, 2024 9:30:00", "name": "IEFT / Management For Engineers", "id":5},
+            {"code": "MCN301", "date": "June 18, 2024 9:30:00", "name": "Disaster Management", "id":6},
+        ],
+
+    },
     "S6": {
         "CS": [
             { "code": "CST302", "date": "May 23, 2024 9:30:00", "name": "Compiler Design", "id": 1 },

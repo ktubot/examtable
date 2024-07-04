@@ -145,16 +145,6 @@ const examsDetails = {
         ],
 
     },
-    "S7": {
-        "CS": [
-            { "code": "CST302", "date": "May 23, 2024 9:30:00", "name": "Compiler Design", "id": 1 },
-            { "code": "CST304", "date": "May 28, 2024 9:30:00", "name": "Computer Graphics And Image Processing", "id": 2 },
-            { "code": "CST306", "date": "June 1, 2024 9:30:00", "name": "Algorithm Analysis And Design", "id": 3 },
-            { "code": "CST3x2", "date": "June 6, 2024 9:30:00", "name": "Elective - I", "id": 4 },
-            { "code": "HUT300", "date": "June 11, 2024 9:30:00", "name": "Industrial Economics And Foreign Trade", "id": 5 },
-            { "code": "CST308", "date": "June 14, 2024 9:30:00", "name": "Comprehensive Course Work", "id": 6 }
-        ],
-    },
     "S6": {
         "CS": [
             { "code": "CST302", "date": "May 23, 2024 9:30:00", "name": "Compiler Design", "id": 1 },
@@ -211,6 +201,44 @@ const examsDetails = {
             { "code": "CET308", "date": "June 14, 2024 9:30:00", "name": "Comprehensive Course Work", "id": 6 }
         ],
         
+    },
+    "S7": {
+        "CS": [
+            { "code": "CST401", "date": "May 22, 2024 9:30:00", "name": "Artificial Intelligence", "id": 1 },
+            {"code": "CST4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
+            {"code": "CST4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
+            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+        ],
+        "EC":[
+            { "code": "ECT401", "date": "May 22, 2024 9:30:00", "name": "Wireless Communication", "id": 1 },
+            {"code": "ECT4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
+            {"code": "ECT4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
+            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+        ],
+        "EE":[
+            { "code": "EET401", "date": "May 22, 2024 9:30:00", "name": "Advanced Control Systems", "id": 1 },
+            {"code": "EET4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
+            {"code": "EET4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
+            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+        ],
+        "IT":[
+            { "code": "ITT401", "date": "May 22, 2024 9:30:00", "name": "Data Analytics ", "id": 1 },
+            {"code": "ITT4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
+            {"code": "ITT4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
+            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+        ],
+        "ME":[
+            { "code": "MET401", "date": "May 22, 2024 9:30:00", "name": "Design Of Machine Elements", "id": 1 },
+            {"code": "MET4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
+            {"code": "MET4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
+            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+        ],
+        "CE":[
+            { "code": "CET401", "date": "May 22, 2024 9:30:00", "name": "Design Of Steel Structures ", "id": 1 },
+            {"code": "CET4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
+            {"code": "CET4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
+            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+        ],
     },
     "S8": {
         "CS": [

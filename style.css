@@ -1,50 +1,60 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #88c1fa;
+    background-color: #f0f4f8;
     color: #333;
     font-weight: bold;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1 {
     font-weight: bold;
     color: #2c3e50;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
 .table {
     background-color: #ffffff;
     border-collapse: separate;
     border-spacing: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .table th, .table td {
     color: #34495e;
     padding: 15px;
     vertical-align: middle;
+    border-bottom: 1px solid #dee2e6;
 }
 
 .table th {
     background-color: #ecf0f1;
+    font-weight: 700;
 }
 
 .table td {
-    background-color: #fdfefe;
+    background-color: #ffffff;
     font-weight: normal;
 }
 
-.table-bordered {
-    border: 1px solid #dee2e6;
+.table th:last-child, .table td:last-child {
+    border-right: none;
 }
 
-.table-bordered th, .table-bordered td {
-    border: 1px solid #dee2e6;
+.table-bordered {
+    border: none;
 }
 
 .btn-success {
-    box-shadow: 0 4px #999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background-color: #28a745;
     border-color: #28a745;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .btn-success:hover {
@@ -55,8 +65,13 @@ h1 {
 .btn-success:active {
     background-color: #1e7e34;
     border-color: #1c7430;
-    box-shadow: 0 2px #666;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transform: translateY(2px);
+}
+
+.btn-success:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
 }
 
 .table-warning {
@@ -65,9 +80,25 @@ h1 {
 
 @media screen and (max-width: 600px) {
     .time-left {
-        min-width: 150px; /* Adjust this value as needed */
+        min-width: 150px;
     }
 }
+
 footer {
-    margin-top: 50px; /* Adjust this value as needed */
+    margin-top: auto;
+    padding: 20px 0;
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff;
 }

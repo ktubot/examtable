@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const tableBody = document.getElementById('table-body');
     const semesterSelect = document.getElementById('sem');
     const departmentSelect = document.getElementById('branch');
+    const memeDiv = document.getElementById('meme');
 
     // Exam details object (example data)
     const examsDetails = {
@@ -66,50 +67,114 @@ document.addEventListener("DOMContentLoaded", function() {
                 {"code": "MET4XX", "date": "June 3, 2024 9:30:00", "name": "Program Elective 5", "id":4},
             ],
         }
-
     };
 
-    // Set default values for department and semester if stored in localStorage
-    let defaultDepartment = localStorage.getItem('branch') || "CS";
-    let defaultSemester = localStorage.getItem('sem') || "S6";
+    var defaultBranch;
+    var defaultSem;
 
-    // Populate dropdowns with options
-    function populateDropdowns() {
-        // Populate semester dropdown
-        Object.keys(examsDetails).forEach(semester => {
-            let option = document.createElement('option');
-            option.value = semester;
-            option.textContent = `Semester ${semester}`;
+    // Check local storage for saved branch and semester
+    if (localStorage.getItem('branch')) {
+        defaultBranch = localStorage.getItem('branch');
+        departmentSelect.value = defaultBranch; // Set the selected value in the dropdown
+    } else {
+        defaultBranch = "CS"; // Default branch
+    }
+
+    if (localStorage.getItem('sem')) {
+        defaultSem = localStorage.getItem('sem');
+        semesterSelect.value = defaultSem; // Set the selected value in the dropdown
+    } else {
+        defaultSem = "S2"; // Default semester
+    }
+
+    // Function to update the table based on selected semester and branch
+    function updateTable(sem, branch) {
+        tableBody.innerHTML = ""; // Clear table body
+        memeDiv.innerHTML = ""; // Clear meme div
+
+        // Check if the selected semester and branch have data
+        if (examsDetails[sem] && examsDetails[sem][branch]) {
+            examsDetails[sem][branch].forEach(exam => {
+                var row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${exam.id}</td>
+                    <td>${exam.name}</td>
+                    <td>${exam.code}</td>
+                    <td>${exam.date}</td>
+                    <td id="countdown${exam.id}"> </td>
+                `;
+                tableBody.appendChild(row);
+
+                // Start countdown for each exam
+                countdown(new Date(exam.date).getTime(), document.getElementById(`countdown${exam.id}`));
+            });
+        } else {
+            // Display meme image if no data found for selected semester and branch
+            memeDiv.innerHTML = `<img src="3.png" alt="No Data Found" style="width: 30vh; height: 30vh; object-fit: contain;">`;
+        }
+    }
+
+    // Function to initialize the page
+    function initializePage() {
+        // Populate semester options
+        Object.keys(examsDetails).forEach(sem => {
+            var option = document.createElement('option');
+            option.value = sem;
+            option.textContent = sem;
             semesterSelect.appendChild(option);
         });
 
-        // Populate department dropdown based on selected semester
-        populateDepartmentDropdown(defaultSemester);
-
-        // Set default selected options
-        semesterSelect.value = defaultSemester;
-        departmentSelect.value = defaultDepartment;
-    }
-
-    // Populate department dropdown based on selected semester
-    function populateDepartmentDropdown(semester) {
-        departmentSelect.innerHTML = ""; // Clear previous options
-        Object.keys(examsDetails[semester]).forEach(department => {
-            let option = document.createElement('option');
-            option.value = department;
-            option.textContent = department;
+        // Populate branch options for the default semester
+        Object.keys(examsDetails[defaultSem]).forEach(branch => {
+            var option = document.createElement('option');
+            option.value = branch;
+            option.textContent = branch;
             departmentSelect.appendChild(option);
         });
+
+        // Update table based on default selections
+        updateTable(defaultSem, defaultBranch);
     }
 
-    // Update table and save selections to localStorage
-    function updateTable() {
-        let semester = semesterSelect.value;
-        let department = departmentSelect.value;
-        localStorage.setItem('sem', semester);
-        localStorage.setItem('branch', department);
-        renderTable(semester, department);
+    // Event listener for semester change
+    semesterSelect.addEventListener('change', function () {
+        defaultSem = semesterSelect.value;
+        updateTable(defaultSem, defaultBranch);
+        localStorage.setItem('sem', defaultSem); // Save selected semester to local storage
+    });
+
+    // Event listener for branch change
+    departmentSelect.addEventListener('change', function () {
+        defaultBranch = departmentSelect.value;
+        updateTable(defaultSem, defaultBranch);
+        localStorage.setItem('branch', defaultBranch); // Save selected branch to local storage
+    });
+
+    // Function to start countdown for exam
+    function countdown(cdate, dest) {
+        var x = setInterval(function () {
+            var now = new Date().getTime();
+            var distance = cdate - now;
+            if (distance < 0) {
+                clearInterval(x);
+                dest.innerHTML = "EXAM OVER";
+                return;
+            }
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            if (days < 5) {
+                dest.style.color = "red";
+            } else {
+                dest.style.color = "black";
+            }
+
+            dest.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+        }, 1000);
     }
 
-    // Render table based on selected semester and department
-    function renderTable(semester, department) {
+    // Initialize the page
+    initializePage();
+});

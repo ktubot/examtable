@@ -1,3 +1,4 @@
+/* Reset and base styles */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
@@ -11,14 +12,16 @@ h1 {
     margin-top: 20px;
 }
 
+/* Custom select styles */
 .custom-select {
     background-color: #ffffff;
     border: 1px solid #ced4da;
     color: #495057;
     font-size: 1rem;
-    padding: .75rem 1.5rem;
+    padding: .375rem 2rem .375rem 1rem; /* Adjusted padding */
     border-radius: .25rem;
     appearance: none;
+    max-width: 100%; /* Ensures dropdown width fits content */
 }
 
 .custom-select:focus {
@@ -27,11 +30,19 @@ h1 {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
+@media screen and (max-width: 992px) {
+    .custom-select {
+        padding-right: 1rem; /* Adjust padding for smaller screens if needed */
+    }
+}
+
+/* Table styles */
 .table {
     background-color: #ffffff;
     border-collapse: separate;
     border-spacing: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure table takes full width */
 }
 
 .table th, .table td {
@@ -57,6 +68,7 @@ h1 {
     border: 1px solid #dee2e6;
 }
 
+/* Button styles */
 .btn-success {
     background-color: #28a745;
     border-color: #28a745;
@@ -77,16 +89,12 @@ h1 {
     transform: translateY(2px);
 }
 
-@media screen and (max-width: 600px) {
-    .time-left {
-        min-width: 150px; /* Adjust this value as needed */
-    }
-}
-
+/* Footer styles */
 footer {
     margin-top: 50px; /* Adjust this value as needed */
 }
 
+/* Additional styles */
 .form-group {
     margin-bottom: 1rem;
 }

@@ -63,6 +63,8 @@ h1 {
     border-color: #1c7430;
     box-shadow: 0 2px #666;
     transform: translateY(2px);
+    margin-top: 10px; /* Adjust top margin for the button */
+    margin-bottom: 10px; /* Adjust bottom margin for the button */
 }
 
 /* Footer styles */
@@ -71,5 +73,6 @@ footer {
 }
 
 .text-center {
-    margin-top: 2rem;
+    margin-top: 10px; /* Adjust top margin for the button */
+    margin-bottom: 10px; /* Adjust bottom margin for the button */
 }

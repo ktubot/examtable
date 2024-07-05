@@ -242,7 +242,7 @@ const examsDetails = {
     },
     "S8": {
         "CS": [
-            { "code": "CST402", "date": "May 22, 2024 9:30:00", "name": "Distributed Computing", "id": 1 },
+            { "code": "CST402", "date": "May 22, 2025 9:30:00", "name": "Distributed Computing", "id": 1 },
             {"code": "CST4XX", "date": "May 27, 2024 9:30:00", "name": "Program Elective 3", "id":2},
             {"code": "CST4XX", "date": "May 30, 2024 9:30:00", "name": "Program Elective 4", "id":3},
             {"code": "CST4XX", "date": "June 3, 2024 9:30:00", "name": "Program Elective 5", "id":4},

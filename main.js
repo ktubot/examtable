@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const tableBody = document.getElementById('table-body');
-    const semesterSelect = document.getElementById('semester');
-    const departmentSelect = document.getElementById('department');
+    const semesterSelect = document.getElementById('sem');
+    const departmentSelect = document.getElementById('branch');
 
     // Exam details object (example data)
     const examsDetails = {
@@ -70,8 +70,8 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 
     // Set default values for department and semester if stored in localStorage
-    let defaultDepartment = localStorage.getItem('department') || "CS";
-    let defaultSemester = localStorage.getItem('semester') || "S2";
+    let defaultDepartment = localStorage.getItem('branch') || "CS";
+    let defaultSemester = localStorage.getItem('sem') || "S6";
 
     // Populate dropdowns with options
     function populateDropdowns() {
@@ -106,11 +106,10 @@ document.addEventListener("DOMContentLoaded", function() {
     function updateTable() {
         let semester = semesterSelect.value;
         let department = departmentSelect.value;
-        localStorage.setItem('semester', semester);
-        localStorage.setItem('department', department);
+        localStorage.setItem('sem', semester);
+        localStorage.setItem('branch', department);
         renderTable(semester, department);
     }
 
     // Render table based on selected semester and department
     function renderTable(semester, department) {
-        tableBody.innerHTML = ""; // Clear previous table rows

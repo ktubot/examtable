@@ -1,33 +1,29 @@
 const tableBody = document.getElementById('table-body');
 const examsDetails = {
-    // Your exam details should be structured to support different years like 2019, 2024, etc.
-    // Example structure:
     "S1": {
         "CS": {
             "2019": [
                 { "code": "MAT101", "date": "October 26, 2019 9:30:00", "name": "Linear Algebra And Calculus", "id": 1 },
                 { "code": "PHT100", "date": "May 31, 2019 9:30:00", "name": "Engineering Physics", "id": 2 },
+                { "code": "EST100", "date": "June 5, 2019 9:30:00", "name": "Engineering Mechanics", "id": 3 },
+                { "code": "EST120", "date": "June 10, 2019 9:30:00", "name": "BME & BCE", "id": 4 },
+                { "code": "HUN102", "date": "July 13, 2019 9:30:00", "name": "Professional Communication", "id": 5 },
+                { "code": "EST102", "date": "June 18, 2019 9:30:00", "name": "Programming in C", "id": 6 }
             ],
             "2024": [
-                { "code": "MAT101", "date": "October 26, 2024 9:30:00", "name": "2", "id": 1 },
-                { "code": "PHT100", "date": "May 31, 2024 9:30:00", "name": "3", "id": 2 },
-            ]
-        },
-        "EC": {
-            "2019": [
-                { "code": "MAT102", "date": "May 25, 2019 9:30:00", "name": "Vector Calculus", "id": 1 },
-                { "code": "PHT100", "date": "May 31, 2019 9:30:00", "name": "Engineering Physics", "id": 2 },
-            ],
-            "2024": [
-                { "code": "MAT102", "date": "May 25, 2024 9:30:00", "name": "Vector Calculus", "id": 1 },
+                { "code": "MAT101", "date": "October 26, 2024 9:30:00", "name": "Linear Algebra And Calculus", "id": 1 },
                 { "code": "PHT100", "date": "May 31, 2024 9:30:00", "name": "Engineering Physics", "id": 2 },
+                { "code": "EST100", "date": "June 5, 2024 9:30:00", "name": "Engineering Mechanics", "id": 3 },
+                { "code": "EST120", "date": "June 10, 2024 9:30:00", "name": "BME & BCE", "id": 4 },
+                { "code": "HUN102", "date": "July 13, 2024 9:30:00", "name": "Professional Communication", "id": 5 },
+                { "code": "EST102", "date": "June 18, 2024 9:30:00", "name": "Programming in C", "id": 6 }
             ]
         }
-        // Add other branches and semesters similarly for both years
-    },
-    // Other semesters (S2, S3, etc.) with the same structure
+        // Repeat for other branches and semesters...
+    }
 };
 
+// Handle defaults
 var defaultBranch;
 var defaultSem;
 var defaultYear;
@@ -43,7 +39,7 @@ if (localStorage.getItem('sem')) {
     defaultSem = localStorage.getItem('sem');
     document.getElementById("sem").value = defaultSem;
 } else {
-    defaultSem = "S6";
+    defaultSem = "S1";
 }
 
 if (localStorage.getItem('year')) {
@@ -53,30 +49,7 @@ if (localStorage.getItem('year')) {
     defaultYear = "2024";
 }
 
-function countdown(cdate, dest) {
-    var x = setInterval(function () {
-        var now = new Date().getTime();
-        var distance = cdate - now;
-        if (distance < 0) {
-            clearInterval(x);
-            dest.innerHTML = "EXAM OVER";
-            return;
-        }
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        if (days < 5) {
-            dest.style.color = "red";
-        } else {
-            dest.style.color = "black";
-        }
-
-        dest.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-    }, 1000);
-}
-
+// Add event listeners for dropdowns
 document.getElementById('branch').addEventListener('change', function (e) {
     defaultBranch = e.target.value;
     updateTable(defaultSem, defaultBranch, defaultYear);
@@ -95,18 +68,21 @@ document.getElementById('year').addEventListener('change', function (e) {
     localStorage.setItem('year', defaultYear);
 });
 
+// Function to update the table
 function updateTable(sem, branch, year) {
     tableBody.innerHTML = "";
+    
     if (
         examsDetails[sem] === undefined ||
         examsDetails[sem][branch] === undefined ||
         examsDetails[sem][branch][year] === undefined
     ) {
         document.getElementById('meme').innerHTML = `<img src="3.png" alt="No Data Found" style="width: 30vh; height: 30vh; object-fit: contain;">`;
+        return;
     } else {
         document.getElementById('meme').innerHTML = "";
     }
-    
+
     examsDetails[sem][branch][year].forEach(exam => {
         var row = document.createElement('tr');
         row.innerHTML = `
@@ -114,11 +90,33 @@ function updateTable(sem, branch, year) {
             <td>${exam.name}</td>
             <td>${exam.code}</td>
             <td>${exam.date}</td>
-            <td id="countdown${exam.id}"> </td>
+            <td id="countdown${exam.id}"></td>
         `;
         tableBody.appendChild(row);
         countdown(new Date(exam.date).getTime(), document.getElementById(`countdown${exam.id}`));
     });
 }
 
+// Countdown function
+function countdown(cdate, dest) {
+    var x = setInterval(function () {
+        var now = new Date().getTime();
+        var distance = cdate - now;
+        
+        if (distance < 0) {
+            clearInterval(x);
+            dest.innerHTML = "EXAM OVER";
+            return;
+        }
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        dest.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    }, 1000);
+}
+
+// Call the updateTable function for the first load
 updateTable(defaultSem, defaultBranch, defaultYear);

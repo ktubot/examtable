@@ -9,8 +9,8 @@ const examsDetails = {
                 { "code": "PHT100", "date": "May 31, 2019 9:30:00", "name": "Engineering Physics", "id": 2 },
             ],
             "2024": [
-                { "code": "MAT101", "date": "October 26, 2024 9:30:00", "name": "Linear Algebra And Calculus", "id": 1 },
-                { "code": "PHT100", "date": "May 31, 2024 9:30:00", "name": "Engineering Physics", "id": 2 },
+                { "code": "MAT101", "date": "October 26, 2024 9:30:00", "name": "2", "id": 1 },
+                { "code": "PHT100", "date": "May 31, 2024 9:30:00", "name": "3", "id": 2 },
             ]
         },
         "EC": {

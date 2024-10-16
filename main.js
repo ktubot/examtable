@@ -49,7 +49,14 @@ if (localStorage.getItem('year')) {
     defaultYear = "2024";
 }
 
-// Add event listeners for dropdowns
+// Add event listener for the scheme dropdown
+document.getElementById('scheme').addEventListener('change', function (e) {
+    defaultYear = e.target.value; // Update defaultYear based on scheme
+    updateTable(defaultSem, defaultBranch, defaultYear); // Update the table with the new scheme/year
+    localStorage.setItem('year', defaultYear); // Store the selected scheme (year) in localStorage
+});
+
+// Existing listeners for branch and sem
 document.getElementById('branch').addEventListener('change', function (e) {
     defaultBranch = e.target.value;
     updateTable(defaultSem, defaultBranch, defaultYear);
@@ -67,11 +74,7 @@ document.getElementById('year').addEventListener('change', function (e) {
     updateTable(defaultSem, defaultBranch, defaultYear);
     localStorage.setItem('year', defaultYear);
 });
-document.getElementById('scheme').addEventListener('change', function (e) {
-    defaultYear = e.target.value; // since scheme corresponds to the year
-    updateTable(defaultSem, defaultBranch, defaultYear); // update the table with new scheme
-    localStorage.setItem('year', defaultYear); // store the selected scheme in localStorage
-});
+
 
 // Function to update the table
 function updateTable(sem, branch, year) {

@@ -67,6 +67,11 @@ document.getElementById('year').addEventListener('change', function (e) {
     updateTable(defaultSem, defaultBranch, defaultYear);
     localStorage.setItem('year', defaultYear);
 });
+document.getElementById('scheme').addEventListener('change', function (e) {
+    defaultYear = e.target.value; // since scheme corresponds to the year
+    updateTable(defaultSem, defaultBranch, defaultYear); // update the table with new scheme
+    localStorage.setItem('year', defaultYear); // store the selected scheme in localStorage
+});
 
 // Function to update the table
 function updateTable(sem, branch, year) {

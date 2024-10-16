@@ -94,9 +94,6 @@ const examsDetails = {
     }
 };
 
-        // Repeat for other branches and semesters...
-    }
-};
 
 // Handle defaults
 var defaultBranch;

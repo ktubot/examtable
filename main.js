@@ -212,12 +212,12 @@ const examsDetails = {
     "S5": { // Adding S4 section
         "CS": {
             "2019": [
-            { "code": "CST301", "date": "August 25, 2024 09:30:00", "name": "Formal Languages & Automata Theory", "id": 1 },
-            {"code": "CST303", "date": "May 31, 2024 9:30:00", "name": "Computer Networks", "id":2},
-            {"code": "CST305", "date": "June 5, 2024 9:30:00", "name": "System Software", "id":3},
-            {"code": "CST307", "date": "June 10, 2024 9:30:00", "name": "Microprocessors & Microcontrollers ", "id":4},
-            {"code": "CST309", "date": "July 13, 2024 9:30:00", "name": "Management Of Software Systems", "id":5},
-            {"code": "MCN301", "date": "June 18, 2024 9:30:00", "name": "Disaster Management", "id":6},
+  { "code": "CST301", "date": "November 25, 2024 9:30:00", "name": "Formal Languages & Automata Theory", "id": 1 },  
+  { "code": "CST303", "date": "November 28, 2024 9:30:00", "name": "Computer Networks", "id": 2 },  
+  { "code": "CST305", "date": "December 2, 2024 9:30:00", "name": "System Software", "id": 3 },  
+  { "code": "CST307", "date": "December 5, 2024 9:30:00", "name": "Microprocessors & Microcontrollers", "id": 4 },  
+  { "code": "CST309", "date": "December 7, 2024 9:30:00", "name": "Management Of Software Systems", "id": 5 },  
+  { "code": "MCN301", "date": "December 12, 2024 9:30:00", "name": "Disaster Management", "id": 6 }  
             ],
         },
         "EC": {

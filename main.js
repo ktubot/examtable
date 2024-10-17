@@ -153,9 +153,6 @@ const examsDetails = {
             {"code": "HUT200/EST200", "date": "July 13, 2019 9:30:00", "name": "Design And Engineering / Professional Communication", "id":5},
             {"code": "MCN201", "date": "June 18, 2019 9:30:00", "name": "Sustainable Engineering", "id":6}
         ]
-
-    }
-     }
          }
 };
 

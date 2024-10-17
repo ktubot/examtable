@@ -107,12 +107,12 @@ const examsDetails = {
     "S3": {
         "CS": {
             "2019": [
-                { "code": "MAT101", "date": "October 26, 2019 9:30:00", "name": "Linear Algebra And Calculus", "id": 1 },
-                { "code": "PHT100", "date": "May 31, 2019 9:30:00", "name": "Engineering Physics", "id": 2 },
-                { "code": "EST100", "date": "June 5, 2019 9:30:00", "name": "Engineering Mechanics", "id": 3 },
-                { "code": "EST120", "date": "June 10, 2019 9:30:00", "name": "BME & BCE", "id": 4 },
-                { "code": "HUN102", "date": "July 13, 2019 9:30:00", "name": "Professional Communication", "id": 5 },
-                { "code": "EST102", "date": "June 18, 2019 9:30:00", "name": "Programming in C", "id": 6 },
+  { "code": "MAT203", "date": "November 23, 2024 9:30:00", "name": "DISCRETE MATHEMATICAL STRUCTURES", "id": 1 },  
+  { "code": "CST203", "date": "November 30, 2024 9:30:00", "name": "DATA STRUCTURES", "id": 2 },  
+  { "code": "CST205", "date": "December 4, 2024 9:30:00", "name": "LOGIC SYSTEM DESIGN", "id": 3 },  
+  { "code": "EST200/HUT200", "date": "December 6, 2024 9:30:00", "name": "OBJECT ORIENTED PROGRAMMING USING JAVA", "id": 4 },  
+  { "code": "CST201", "date": "December 11, 2024 9:30:00", "name": "DESIGN AND ENGINEERING", "id": 5 },  
+  { "code": "MCN201", "date": "December 13, 2024 9:30:00", "name": "SUSTAINABLE ENGINEERING", "id": 6 }  
             ],
         },
         "CS": {

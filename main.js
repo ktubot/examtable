@@ -153,7 +153,26 @@ const examsDetails = {
             {"code": "CET205", "date": "June 10, 2024 9:30:00", "name": "Surveying & Geomatics", "id":4},
             {"code": "HUT200/EST200", "date": "July 13, 2024 9:30:00", "name": "Design And Engineering / Professional Communication", "id":5},
             {"code": "MCN201", "date": "June 18, 2024 9:30:00", "name": "Sustainable Engineering", "id":6},
+            ]
+        },
+    },
+    "S4": { // Adding S4 section
+        "CS": {
+            "2019": [
+                { "code": "MAT201", "date": "October 26, 2019 9:30:00", "name": "Advanced Linear Algebra", "id": 1 },
+                { "code": "PHT200", "date": "May 31, 2019 9:30:00", "name": "Electromagnetism", "id": 2 },
+                { "code": "EST200", "date": "June 5, 2019 9:30:00", "name": "Thermodynamics", "id": 3 },
+                { "code": "EST220", "date": "June 10, 2019 9:30:00", "name": "Biomechanics", "id": 4 },
+                { "code": "HUN202", "date": "July 13, 2019 9:30:00", "name": "Technical Writing", "id": 5 },
+                { "code": "EST202", "date": "June 18, 2019 9:30:00", "name": "Data Structures", "id": 6 },
             ],
+            "2024": [
+                { "code": "GAMAT201", "date": "December 31, 2024 1:30:00", "name": "Calculus II", "id": 1 },
+                { "code": "GAPHT221", "date": "January 3, 2025 1:30:00", "name": "Chemistry II", "id": 2 },
+                { "code": "GMEST203", "date": "January 6, 2025 1:30:00", "name": "Software Engineering", "id": 3 },
+                { "code": "GXEST204", "date": "January 8, 2025 1:30:00", "name": "Circuit Analysis", "id": 4 },
+                { "code": "UCEST205", "date": "January 10, 2025 1:30:00", "name": "Web Development", "id": 5 }
+            ]
         },
         // Add other branches and years as needed
     }

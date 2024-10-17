@@ -45,6 +45,24 @@ h1 {
     border: 1px solid #dee2e6;
 }
 
+/* Responsive Table Styles */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto; /* Allow horizontal scroll on small screens */
+}
+
+.table th, .table td {
+    word-wrap: break-word;
+    white-space: nowrap; /* Prevent overflow issues */
+}
+
+@media (max-width: 768px) {
+    .table th, .table td {
+        font-size: 14px; /* Adjust font size for small screens */
+        padding: 8px; /* Reduce padding for better fit */
+    }
+}
+
 /* Button styles */
 .btn-success {
     background-color: #28a745;
@@ -64,16 +82,16 @@ h1 {
     border-color: #1c7430;
     box-shadow: 0 2px #666;
     transform: translateY(2px);
-    margin-top: 10px; /* Adjust top margin for the button */
-    margin-bottom: 10px; /* Adjust bottom margin for the button */
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Footer styles */
 footer {
-    margin-top: 50px; /* Adjust this value as needed */
+    margin-top: 50px;
 }
 
 .text-center {
-    margin-top: 10px; /* Adjust top margin for the button */
-    margin-bottom: 10px; /* Adjust bottom margin for the button */
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

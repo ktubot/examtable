@@ -136,13 +136,15 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<!-- Move this script tag to ensure it loads properly -->
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        updateTable(defaultSem, defaultBranch, defaultYear);  // Ensure the table updates on load
+    // Ensure the DOM is ready before binding events
+    document.addEventListener("DOMContentLoaded", function () {
+        initializeDropdowns(); // Initialize dropdowns and table on page load
     });
 </script>
+
 <script src="main.js"></script>
+
 
 </body>
 </html>

@@ -125,7 +125,7 @@ const examsDetails = {
                 { "code": "EST102", "date": "June 18, 2019 9:30:00", "name": "Programming in C", "id": 6 },
             ],
         },
-        "ECE": {
+        "EC": {
             "2019": [
             { "code": "MAT201", "date": "May 25, 2024 9:30:00", "name": "Partial Differential Equation & Complex Analysis", "id": 1 },
             {"code": "ECT201", "date": "May 31, 2024 9:30:00", "name": "Solid State Devices", "id":2},

@@ -198,7 +198,7 @@ const examsDetails = {
                 { "code": "EST202", "date": "June 18, 2019 9:30:00", "name": "Data Structures", "id": 6 },
             ],
         },
-        "EEE": {
+        "EE": {
             "2019": [
                 { "code": "MAT201", "date": "October 26, 2019 9:30:00", "name": "Advanced Linear Algebra", "id": 1 },
                 { "code": "PHT200", "date": "May 31, 2019 9:30:00", "name": "Electromagnetism", "id": 2 },
@@ -261,7 +261,7 @@ const examsDetails = {
             {"code": "MCN301", "date": "June 18, 2024 9:30:00", "name": "Disaster Management", "id":6},
             ],
         },
-        "EEE": {
+        "EE": {
             "2019": [
             { "code": "EET301", "date": "May 25, 2024 9:30:00", "name": "Partial Differential Equation & Complex Analysis", "id": 1 },
             {"code": "EET303", "date": "May 31, 2024 9:30:00", "name": "Circuits And Networks", "id":2},
@@ -279,6 +279,72 @@ const examsDetails = {
                 { "code": "EST220", "date": "June 10, 2019 9:30:00", "name": "Biomechanics", "id": 4 },
                 { "code": "HUN202", "date": "July 13, 2019 9:30:00", "name": "Technical Writing", "id": 5 },
                 { "code": "EST202", "date": "June 18, 2019 9:30:00", "name": "Data Structures", "id": 6 },
+            ],
+        },
+    },
+    "S6": { // Adding S4 section
+        "CS": {
+            "2019": [
+            { "code": "CST302", "date": "May 23, 2024 9:30:00", "name": "Compiler Design", "id": 1 },
+            { "code": "CST304", "date": "May 28, 2024 9:30:00", "name": "Computer Graphics And Image Processing", "id": 2 },
+            { "code": "CST306", "date": "June 1, 2024 9:30:00", "name": "Algorithm Analysis And Design", "id": 3 },
+            { "code": "CST3x2", "date": "June 6, 2024 9:30:00", "name": "Elective - I", "id": 4 },
+            { "code": "HUT300", "date": "June 11, 2024 9:30:00", "name": "Industrial Economics And Foreign Trade", "id": 5 },
+            { "code": "CST308", "date": "June 14, 2024 9:30:00", "name": "Comprehensive Course Work", "id": 6 }
+            ],
+        },
+        "EC": {
+            "2019": [
+            { "code": "ECT302", "date": "May 23, 2024 9:30:00", "name": "Electromagnetics", "id": 1 },
+            { "code": "ECT304", "date": "May 28, 2024 9:30:00", "name": "VlSI Circuit Design", "id": 2 },
+            { "code": "ECT306", "date": "June 1, 2024 9:30:00", "name": "Information Theory And Coding", "id": 3 },
+            { "code": "ECT3x2", "date": "June 6, 2024 9:30:00", "name": "Elective - I", "id": 4 },
+            { "code": "HUT300", "date": "June 11, 2024 9:30:00", "name": "Industrial Economics And Foreign Trade", "id": 5 },
+            { "code": "HUT310", "date": "June 11, 2024 9:30:00", "name": "Management For Engineers", "id": 5 },
+            { "code": "ECT308", "date": "June 14, 2024 9:30:00", "name": "Comprehensive Course Work", "id": 6 }
+
+            ],
+        },
+        "ME": {
+            "2019": [
+            { "code": "MET302", "date": "May 23, 2024 9:30:00", "name": "Heat & Mass Transfer", "id": 1 },
+            { "code": "MET304", "date": "May 28, 2024 9:30:00", "name": "Dynamics Of Machinery & Machine Design", "id": 2 },
+            { "code": "MET306", "date": "June 1, 2024 9:30:00", "name": "Advanced Manufacturing Engineering", "id": 3 },
+            { "code": "MET3x2", "date": "June 6, 2024 9:30:00", "name": "Elective - I", "id": 4 },
+            { "code": "HUT300", "date": "June 11, 2024 9:30:00", "name": "Industrial Economics And Foreign Trade", "id": 5 },
+            { "code": "MET310", "date": "June 11, 2024 9:30:00", "name": "Management For Engineers", "id": 5 },
+            { "code": "MET308", "date": "June 14, 2024 9:30:00", "name": "Comprehensive Course Work", "id": 7 }
+            ],
+        },
+        "CE": {
+            "2019": [
+            { "code": "CET302", "date": "May 23, 2024 9:30:00", "name": "Structural Analysis – II", "id": 1 },
+            { "code": "CET304", "date": "May 28, 2024 9:30:00", "name": "Environmental Engineering", "id": 2 },
+            { "code": "CET306", "date": "June 1, 2024 9:30:00", "name": "Design Of Hydraulic Structures", "id": 3 },
+            { "code": "CET3x2", "date": "June 6, 2024 9:30:00", "name": "Elective - I", "id": 4 },
+            { "code": "HUT300", "date": "June 11, 2024 9:30:00", "name": "Industrial Economics And Foreign Trade", "id": 5 },
+            { "code": "CET308", "date": "June 14, 2024 9:30:00", "name": "Comprehensive Course Work", "id": 6 }
+            ],
+        },
+        "EE": {
+            "2019": [
+            { "code": "EET302", "date": "May 23, 2024 9:30:00", "name": "Linear Control Systems", "id": 1 },
+            { "code": "EET304", "date": "May 28, 2024 9:30:00", "name": "Power Systems II", "id": 2 },
+            { "code": "EET306", "date": "June 1, 2024 9:30:00", "name": "Power Electronics", "id": 3 },
+            { "code": "EET3x2", "date": "June 6, 2024 9:30:00", "name": "Elective - I", "id": 4 },
+            { "code": "HUT300", "date": "June 11, 2024 9:30:00", "name": "Industrial Economics And Foreign Trade", "id": 5 },
+            { "code": "HUT310", "date": "June 11, 2024 9:30:00", "name": "Management For Engineers", "id": 5 },
+            { "code": "EET308", "date": "June 14, 2024 9:30:00", "name": "Comprehensive Course Work", "id": 6 }
+            ],
+        },
+        "IT": {
+            "2019": [
+            { "code": "ITT302", "date": "May 23, 2024 9:30:00", "name": "Internetworking With TCP/IP", "id": 1 },
+            { "code": "ITT304", "date": "May 28, 2024 9:30:00", "name": "Algorithm Analysis And Design", "id": 2 },
+            { "code": "ITT306", "date": "June 1, 2024 9:30:00", "name": "Data Science", "id": 3 },
+            { "code": "ITT3x2", "date": "June 6, 2024 9:30:00", "name": "Elective - I", "id": 4 },
+            { "code": "HUT300", "date": "June 11, 2024 9:30:00", "name": "Industrial Economics And Foreign Trade", "id": 5 },
+            { "code": "ITT308", "date": "June 14, 2024 9:30:00", "name": "Comprehensive Course Work", "id": 6 }
             ],
         },
     },

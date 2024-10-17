@@ -488,48 +488,54 @@ document.getElementById('scheme').addEventListener('change', function () {
 
 // Function to update the table
 function updateTable(sem, branch, year) {
-    tableBody.innerHTML = ""; // Clear existing rows
-
-    // Check if data exists for the selected sem, branch, and year
-    if (examsDetails[sem] && examsDetails[sem][branch] && examsDetails[sem][branch][year]) {
-        examsDetails[sem][branch][year].forEach(exam => {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-                <td>${exam.id}</td>
-                <td>${exam.name}</td>
-                <td>${exam.code}</td>
-                <td>${new Date(exam.date).toLocaleDateString()}</td>
-                <td id="countdown${exam.id}"></td>
-            `;
-            tableBody.appendChild(row);
-            // Start countdown for each exam
-            countdown(new Date(exam.date).getTime(), document.getElementById(`countdown${exam.id}`));
-        });
+    tableBody.innerHTML = "";
+    
+    if (
+        examsDetails[sem] === undefined ||
+        examsDetails[sem][branch] === undefined ||
+        examsDetails[sem][branch][year] === undefined
+    ) {
+        document.getElementById('meme').innerHTML = `<img src="3.png" alt="No Data Found" style="width: 30vh; height: 30vh; object-fit: contain;">`;
+        return;
     } else {
-        tableBody.innerHTML = `<tr><td colspan="5">No data available for this selection.</td></tr>`;
+        document.getElementById('meme').innerHTML = "";
     }
+
+    examsDetails[sem][branch][year].forEach(exam => {
+        var row = document.createElement('tr');
+        row.innerHTML = `
+            <td>${exam.id}</td>
+            <td>${exam.name}</td>
+            <td>${exam.code}</td>
+            <td>${exam.date}</td>
+            <td id="countdown${exam.id}"></td>
+        `;
+        tableBody.appendChild(row);
+        countdown(new Date(exam.date).getTime(), document.getElementById(`countdown${exam.id}`));
+    });
 }
 
 // Countdown function
 function countdown(cdate, dest) {
-    const x = setInterval(function () {
-        const now = new Date().getTime();
-        const distance = cdate - now;
-
+    var x = setInterval(function () {
+        var now = new Date().getTime();
+        var distance = cdate - now;
+        
         if (distance < 0) {
             clearInterval(x);
             dest.innerHTML = "EXAM OVER";
             return;
         }
 
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        dest.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        dest.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
     }, 1000);
 }
 
-// Initial table load
+// Call the updateTable function for the first load
 updateTable(defaultSem, defaultBranch, defaultYear);
+

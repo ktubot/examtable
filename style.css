@@ -45,23 +45,25 @@ h1 {
     border: 1px solid #dee2e6;
 }
 
-/* Responsive Table Styles */
+/* Ensure the table is responsive on mobile */
 .table-responsive {
     width: 100%;
-    overflow-x: auto; /* Allow horizontal scroll on small screens */
+    overflow-x: auto;  /* Horizontal scroll if needed */
+    -webkit-overflow-scrolling: touch;  /* Smooth scrolling on iOS */
 }
 
 .table th, .table td {
-    word-wrap: break-word;
-    white-space: nowrap; /* Prevent overflow issues */
+    word-wrap: break-word; /* Prevent text overflow */
+    white-space: nowrap;   /* Force content to stay in one line */
 }
 
 @media (max-width: 768px) {
     .table th, .table td {
-        font-size: 14px; /* Adjust font size for small screens */
-        padding: 8px; /* Reduce padding for better fit */
+        font-size: 14px;   /* Adjust font size for small screens */
+        padding: 8px;       /* Reduce padding for better fit */
     }
 }
+
 
 /* Button styles */
 .btn-success {

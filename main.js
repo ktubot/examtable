@@ -104,6 +104,7 @@ const examsDetails = {
             ]
         },
     }
+};
     "S3": {
         "CS": {
             "2019": [

@@ -120,6 +120,30 @@ if (localStorage.getItem('year')) {
 } else {
     defaultYear = "2024";
 }
+document.addEventListener("DOMContentLoaded", function () {
+    const semDropdown = document.getElementById('sem');
+    const branchDropdown = document.getElementById('branch');
+    const schemeDropdown = document.getElementById('scheme');
+
+    // Ensure event listeners are correctly bound
+    semDropdown.addEventListener('change', function (e) {
+        defaultSem = e.target.value;
+        updateTable(defaultSem, defaultBranch, defaultYear);
+    });
+
+    branchDropdown.addEventListener('change', function (e) {
+        defaultBranch = e.target.value;
+        updateTable(defaultSem, defaultBranch, defaultYear);
+    });
+
+    schemeDropdown.addEventListener('change', function (e) {
+        defaultYear = e.target.value;
+        updateTable(defaultSem, defaultBranch, defaultYear);
+    });
+
+    // Initialize table on page load
+    updateTable(defaultSem, defaultBranch, defaultYear);
+});
 
 // Add event listener for the scheme dropdown
 document.getElementById('scheme').addEventListener('change', function (e) {

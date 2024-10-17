@@ -149,26 +149,26 @@ document.addEventListener("DOMContentLoaded", function () {
 document.getElementById('scheme').addEventListener('change', function (e) {
     defaultYear = e.target.value; // Update defaultYear based on scheme
     updateTable(defaultSem, defaultBranch, defaultYear); // Update the table with the new scheme/year
-    localStorage.setItem('year', defaultYear); // Store the selected scheme (year) in localStorage
+    #localStorage.setItem('year', defaultYear); // Store the selected scheme (year) in localStorage
 });
 
 // Existing listeners for branch and sem
 document.getElementById('branch').addEventListener('change', function (e) {
     defaultBranch = e.target.value;
     updateTable(defaultSem, defaultBranch, defaultYear);
-    localStorage.setItem('branch', defaultBranch);
+    #localStorage.setItem('branch', defaultBranch);
 });
 
 document.getElementById('sem').addEventListener('change', function (e) {
     defaultSem = e.target.value;
     updateTable(defaultSem, defaultBranch, defaultYear);
-    localStorage.setItem('sem', defaultSem);
+    #localStorage.setItem('sem', defaultSem);
 });
 
 document.getElementById('year').addEventListener('change', function (e) {
     defaultYear = e.target.value;
     updateTable(defaultSem, defaultBranch, defaultYear);
-    localStorage.setItem('year', defaultYear);
+    #localStorage.setItem('year', defaultYear);
 });
 
 

@@ -115,16 +115,6 @@ const examsDetails = {
   { "code": "MCN201", "date": "December 13, 2024 9:30:00", "name": "SUSTAINABLE ENGINEERING", "id": 6 }  
             ],
         },
-        "CS": {
-            "2019": [
-                { "code": "MAT101", "date": "October 26, 2019 9:30:00", "name": "Linear Algebra And Calculus", "id": 1 },
-                { "code": "PHT100", "date": "May 31, 2019 9:30:00", "name": "Engineering Physics", "id": 2 },
-                { "code": "EST100", "date": "June 5, 2019 9:30:00", "name": "Engineering Mechanics", "id": 3 },
-                { "code": "EST120", "date": "June 10, 2019 9:30:00", "name": "BME & BCE", "id": 4 },
-                { "code": "HUN102", "date": "July 13, 2019 9:30:00", "name": "Professional Communication", "id": 5 },
-                { "code": "EST102", "date": "June 18, 2019 9:30:00", "name": "Programming in C", "id": 6 },
-            ],
-        },
         "EC": {
             "2019": [
             { "code": "MAT201", "date": "May 25, 2024 9:30:00", "name": "Partial Differential Equation & Complex Analysis", "id": 1 },

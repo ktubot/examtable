@@ -86,7 +86,23 @@ const examsDetails = {
 { "code": "UCEST105", "date": "January 10, 2025 1:30:00", "name": "Python", "id": 5 }
             ]
         }
-
+        "IT": {
+            "2019": [
+                { "code": "MAT101", "date": "October 26, 2019 9:30:00", "name": "Linear Algebra And Calculus", "id": 1 },
+                {"code": "PHT100", "date": "May 31, 2019 9:30:00", "name": "Engineering Physics", "id":2},
+                {"code": "EST100", "date": "June 5, 2019 9:30:00", "name": "Engineering Mechanics", "id":3},
+                {"code": "EST120", "date": "June 10, 2019 9:30:00", "name": "BME & BCE", "id":4},
+                {"code": "HUN102", "date": "July 13, 2019 9:30:00", "name": "Professional Communication", "id":5},
+                {"code": "EST102", "date": "June 18, 2019 9:30:00", "name": "Programming in C", "id":6},
+            ],
+            "2024": [
+{ "code": "GAMAT101", "date": "December 31, 2024 1:30:00", "name": "Mathematics", "id": 1 },
+{ "code": "GAPHT121/GXCYT122", "date": "January 3, 2025 1:30:00", "name": "Physics/Chemistry", "id": 2 },
+{ "code": "GMEST103", "date": "January 6, 2025 1:30:00", "name": "Eng Graphics & CAD", "id": 3 },
+{ "code": "GXEST104", "date": "January 8, 2025 1:30:00", "name": "Intro to EEE", "id": 4 },
+{ "code": "UCEST105", "date": "January 10, 2025 1:30:00", "name": "Python", "id": 5 }
+            ]
+        },
     }
 };
 

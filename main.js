@@ -159,6 +159,37 @@ const examsDetails = {
     "S4": { // Adding S4 section
         "CS": {
             "2019": [
+            {"code": "MAT206", "date": "May 24, 2024 9:30:00", "name": "GRAPH THEORY", "id": 1 },
+            {"code": "CST202", "date": "May 29, 2024 9:30:00", "name": "COMPUTER ORGANISATION AND ARCHITECTURE", "id":2},
+            {"code": "CST204", "date": "June 4, 2024 9:30:00", "name": "DATABASE MANAGEMENT SYSTEMS", "id":3},
+            {"code": "HUT200", "date": "June 12, 2024 9:30:00", "name": "PROFESSIONAL ETHICS", "id":4},
+            {"code": "MCN202", "date": "June 15, 2024 9:30:00", "name": "CONSTITUTION OF INDIA", "id":5},
+            {"code": "CST206", "date": "June 19, 2024 9:30:00", "name": "OPERATING SYSTEMS", "id":6},
+            ],
+        },
+        "EC": {
+            "2019": [
+            {"code": "MAT204", "date": "May 24, 2024 9:30:00", "name": "PROBABILITY, RANDOM PROCESS AND NUMERICAL METHODS", "id": 1 },
+            {"code": "ECT202", "date": "May 29, 2024 9:30:00", "name": "ANALOG CIRCUITS", "id":2},
+            {"code": "ECT204", "date": "June 4, 2024 9:30:00", "name": "SIGNALS AND SYSTEMS", "id":3},
+            {"code": "MET206", "date": "June 7, 2024 9:30:00", "name": "MANUFACTURING PROCESS", "id":4},
+            {"code": "HUT200", "date": "June 12, 2024 9:30:00", "name": "PROFESSIONAL ETHICS", "id":5},
+            {"code": "MCN202", "date": "June 15, 2024 9:30:00", "name": "CONSTITUTION OF INDIA", "id":6},
+
+            ],
+        },
+        "ME": {
+            "2019": [
+            {"code": "MAT202", "date": "May 24, 2024 9:30:00", "name": "PROBABILITY, STATISTICS AND NUMERICAL METHODS", "id": 1 },
+            {"code": "MET202", "date": "May 29, 2024 9:30:00", "name": "ENGINEERING THERMODYNAMICS", "id":2},
+            {"code": "MET204", "date": "June 4, 2024 9:30:00", "name": "MANUFACTURING PROCESS", "id":3},
+            {"code": "MET206", "date": "June 7, 2024 9:30:00", "name": "FLUID MACHINERY", "id":4},
+            {"code": "HUT200", "date": "June 12, 2024 9:30:00", "name": "PROFESSIONAL ETHICS", "id":5},
+            {"code": "MCN202", "date": "June 15, 2024 9:30:00", "name": "CONSTITUTION OF INDIA", "id":6},
+            ],
+        },
+        "CE": {
+            "2019": [
                 { "code": "MAT201", "date": "October 26, 2019 9:30:00", "name": "Advanced Linear Algebra", "id": 1 },
                 { "code": "PHT200", "date": "May 31, 2019 9:30:00", "name": "Electromagnetism", "id": 2 },
                 { "code": "EST200", "date": "June 5, 2019 9:30:00", "name": "Thermodynamics", "id": 3 },
@@ -166,15 +197,27 @@ const examsDetails = {
                 { "code": "HUN202", "date": "July 13, 2019 9:30:00", "name": "Technical Writing", "id": 5 },
                 { "code": "EST202", "date": "June 18, 2019 9:30:00", "name": "Data Structures", "id": 6 },
             ],
-            "2024": [
-                { "code": "GAMAT201", "date": "December 31, 2024 1:30:00", "name": "Calculus II", "id": 1 },
-                { "code": "GAPHT221", "date": "January 3, 2025 1:30:00", "name": "Chemistry II", "id": 2 },
-                { "code": "GMEST203", "date": "January 6, 2025 1:30:00", "name": "Software Engineering", "id": 3 },
-                { "code": "GXEST204", "date": "January 8, 2025 1:30:00", "name": "Circuit Analysis", "id": 4 },
-                { "code": "UCEST205", "date": "January 10, 2025 1:30:00", "name": "Web Development", "id": 5 }
-            ]
         },
-        // Add other branches and years as needed
+        "EEE": {
+            "2019": [
+                { "code": "MAT201", "date": "October 26, 2019 9:30:00", "name": "Advanced Linear Algebra", "id": 1 },
+                { "code": "PHT200", "date": "May 31, 2019 9:30:00", "name": "Electromagnetism", "id": 2 },
+                { "code": "EST200", "date": "June 5, 2019 9:30:00", "name": "Thermodynamics", "id": 3 },
+                { "code": "EST220", "date": "June 10, 2019 9:30:00", "name": "Biomechanics", "id": 4 },
+                { "code": "HUN202", "date": "July 13, 2019 9:30:00", "name": "Technical Writing", "id": 5 },
+                { "code": "EST202", "date": "June 18, 2019 9:30:00", "name": "Data Structures", "id": 6 },
+            ],
+        },
+        "IT": {
+            "2019": [
+                { "code": "MAT201", "date": "October 26, 2019 9:30:00", "name": "Advanced Linear Algebra", "id": 1 },
+                { "code": "PHT200", "date": "May 31, 2019 9:30:00", "name": "Electromagnetism", "id": 2 },
+                { "code": "EST200", "date": "June 5, 2019 9:30:00", "name": "Thermodynamics", "id": 3 },
+                { "code": "EST220", "date": "June 10, 2019 9:30:00", "name": "Biomechanics", "id": 4 },
+                { "code": "HUN202", "date": "July 13, 2019 9:30:00", "name": "Technical Writing", "id": 5 },
+                { "code": "EST202", "date": "June 18, 2019 9:30:00", "name": "Data Structures", "id": 6 },
+            ],
+        },
     }
 };
 

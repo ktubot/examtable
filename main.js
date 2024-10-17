@@ -154,7 +154,7 @@ const examsDetails = {
             {"code": "MCN201", "date": "June 18, 2019 9:30:00", "name": "Sustainable Engineering", "id":6}
         ]
     }
-}
+},
 
     }
 };

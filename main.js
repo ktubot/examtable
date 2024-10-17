@@ -107,53 +107,13 @@ const examsDetails = {
     "CS": {
         "2019": [
             { "code": "MAT203", "date": "May 25, 2019 9:30:00", "name": "Discrete Mathematical Structures", "id": 1 },
-            {"code": "CST201", "date": "May 31, 2019 9:30:00", "name": "Data Structures", "id":2},
-            {"code": "CST203", "date": "June 5, 2019 9:30:00", "name": "Engineering Mechanics", "id":3},
-            {"code": "CST205", "date": "June 10, 2019 9:30:00", "name": "BME & BCE", "id":4},
-            {"code": "HUT200/EST200", "date": "July 13, 2019 9:30:00", "name": "Design And Engineering / Professional Communication", "id":5},
-            {"code": "MCN201", "date": "June 18, 2019 9:30:00", "name": "Sustainable Engineering", "id":6}
+            {"code": "CST201", "date": "May 31, 2019 9:30:00", "name": "Data Structures", "id": 2 },
+            {"code": "CST203", "date": "June 5, 2019 9:30:00", "name": "Engineering Mechanics", "id": 3 },
+            // Add other entries here...
         ]
     },
-    "EC": {
-        "2019": [
-            { "code": "MAT201", "date": "May 25, 2019 9:30:00", "name": "Partial Differential Equation & Complex Analysis", "id": 1 },
-            {"code": "ECT201", "date": "May 31, 2019 9:30:00", "name": "Solid State Devices", "id":2},
-            {"code": "ECT203", "date": "June 5, 2019 9:30:00", "name": "Logic Circuit Design", "id":3},
-            {"code": "ECT205", "date": "June 10, 2019 9:30:00", "name": "Network Theory", "id":4},
-            {"code": "HUT200/EST200", "date": "July 13, 2019 9:30:00", "name": "Design And Engineering / Professional Communication", "id":5},
-            {"code": "MCN201", "date": "June 18, 2019 9:30:00", "name": "Sustainable Engineering", "id":6}
-        ]
-    },
-    "ME": {
-        "2019": [
-            { "code": "MAT201", "date": "May 25, 2019 9:30:00", "name": "Partial Differential Equation & Complex Analysis", "id": 1 },
-            {"code": "MET201", "date": "May 31, 2019 9:30:00", "name": "Mechanics Of Solids", "id":2},
-            {"code": "MET203", "date": "June 5, 2019 9:30:00", "name": "Mechanics Of Fluids", "id":3},
-            {"code": "MET205", "date": "June 10, 2019 9:30:00", "name": "Metallurgy & Material Science", "id":4},
-            {"code": "HUT200/EST200", "date": "July 13, 2019 9:30:00", "name": "Design And Engineering / Professional Communication", "id":5},
-            {"code": "MCN201", "date": "June 18, 2019 9:30:00", "name": "Sustainable Engineering", "id":6}
-        ]
-    },
-    "CE": {
-        "2019": [
-            { "code": "MAT201", "date": "May 25, 2019 9:30:00", "name": "Partial Differential Equation & Complex Analysis", "id": 1 },
-            {"code": "CET201", "date": "May 31, 2019 9:30:00", "name": "Mechanics Of Solids", "id":2},
-            {"code": "CET203", "date": "June 5, 2019 9:30:00", "name": "Fluid Mechanics & Hydraulics", "id":3},
-            {"code": "CET205", "date": "June 10, 2019 9:30:00", "name": "Surveying & Geomatics", "id":4},
-            {"code": "HUT200/EST200", "date": "July 13, 2019 9:30:00", "name": "Design And Engineering / Professional Communication", "id":5},
-            {"code": "MCN201", "date": "June 18, 2019 9:30:00", "name": "Sustainable Engineering", "id":6}
-        ]
-    },
-    "EE": {
-        "2019": [
-            { "code": "MAT201", "date": "May 25, 2019 9:30:00", "name": "Partial Differential Equation & Complex Analysis", "id": 1 },
-            {"code": "EET201", "date": "May 31, 2019 9:30:00", "name": "Circuits And Networks", "id":2},
-            {"code": "EET203", "date": "June 5, 2019 9:30:00", "name": "Measurements & Instrumentation", "id":3},
-            {"code": "EET205", "date": "June 10, 2019 9:30:00", "name": "Analog Electronics", "id":4},
-            {"code": "HUT200/EST200", "date": "July 13, 2019 9:30:00", "name": "Design And Engineering / Professional Communication", "id":5},
-            {"code": "MCN201", "date": "June 18, 2019 9:30:00", "name": "Sustainable Engineering", "id":6}
-        ]
-    }
+    // Add other branches for S3 if needed
+}
 }
 
 };

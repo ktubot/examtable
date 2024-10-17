@@ -107,12 +107,12 @@ const examsDetails = {
     "S3": {
         "CS": {
             "2019": [
-  { "code": "MAT203", "date": "November 23, 2024 9:30:00", "name": "DISCRETE MATHEMATICAL STRUCTURES", "id": 1 },  
-  { "code": "CST203", "date": "November 30, 2024 9:30:00", "name": "DATA STRUCTURES", "id": 2 },  
-  { "code": "CST205", "date": "December 4, 2024 9:30:00", "name": "LOGIC SYSTEM DESIGN", "id": 3 },  
-  { "code": "EST200/HUT200", "date": "December 6, 2024 9:30:00", "name": "OBJECT ORIENTED PROGRAMMING USING JAVA", "id": 4 },  
-  { "code": "CST201", "date": "December 11, 2024 9:30:00", "name": "DESIGN AND ENGINEERING", "id": 5 },  
-  { "code": "MCN201", "date": "December 13, 2024 9:30:00", "name": "SUSTAINABLE ENGINEERING", "id": 6 }  
+  { "code": "MAT203", "date": "November 23, 2024 9:30:00", "name": "Discrete Mathematical Structures", "id": 1 },  
+  { "code": "CST203", "date": "November 30, 2024 9:30:00", "name": "Data Structures", "id": 2 },  
+  { "code": "CST205", "date": "December 4, 2024 9:30:00", "name": "Logic System Design", "id": 3 },  
+  { "code": "EST200/HUT200", "date": "December 6, 2024 9:30:00", "name": "Object Oriented Programming Using Java", "id": 4 },  
+  { "code": "CST201", "date": "December 11, 2024 9:30:00", "name": "Design And Engineering", "id": 5 },  
+  { "code": "MCN201", "date": "December 13, 2024 9:30:00", "name": "Sustainable Engineering", "id": 6 }  
             ],
         },
         "EC": {

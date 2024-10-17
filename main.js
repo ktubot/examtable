@@ -11,11 +11,11 @@ const examsDetails = {
                 {"code": "EST102", "date": "June 18, 2019 9:30:00", "name": "Programming in C", "id":6},
             ],
             "2024": [
-{ "code": "GAMAT101", "date": "December 31, 2024 9:30:00", "name": "MATHS", "id": 1 },
-{ "code": "GAPHT121/GXCYT122", "date": "January 3, 2025 9:30:00", "name": "PHY/CHEM", "id": 2 },
-{ "code": "GMEST103", "date": "January 6, 2025 9:30:00", "name": "GRAPHICS", "id": 3 },
-{ "code": "GXEST104", "date": "January 8, 2025 9:30:00", "name": "IEEE", "id": 4 },
-{ "code": "UCEST105", "date": "January 10, 2025 9:30:00", "name": "PYTHON", "id": 5 }
+{ "code": "GAMAT101", "date": "December 31, 2024 1:30:00", "name": "Mathematics", "id": 1 },
+{ "code": "GAPHT121/GXCYT122", "date": "January 3, 2025 1:30:00", "name": "Physics/Chemistry", "id": 2 },
+{ "code": "GMEST103", "date": "January 6, 2025 1:30:00", "name": "Eng Graphics & CAD", "id": 3 },
+{ "code": "GXEST104", "date": "January 8, 2025 1:30:00", "name": "Intro to EEE", "id": 4 },
+{ "code": "UCEST105", "date": "January 10, 2025 1:30:00", "name": "Python", "id": 5 }
             ]
         },
         "EC": {

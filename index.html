@@ -132,10 +132,17 @@
     <footer class="mt-4">
         <p>For more updates or doubts clearance <a href="https://www.ktunotes.in">INSTAGRAM</a></p>
     </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
+<!-- Move this script tag to ensure it loads properly -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        updateTable(defaultSem, defaultBranch, defaultYear);  // Ensure the table updates on load
+    });
+</script>
+<script src="main.js"></script>
+
 </body>
 </html>

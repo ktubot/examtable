@@ -341,10 +341,10 @@ const examsDetails = {
     "S7": { // Adding S4 section
         "CS": {
             "2019": [
-            { "code": "CST401", "date": "May 22, 2024 9:30:00", "name": "Artificial Intelligence", "id": 1 },
-            {"code": "CST4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
-            {"code": "CST4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
-            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+  { "code": "CST401", "date": "November 22, 2024 9:30:00", "name": "Artificial Intelligence", "id": 1 },  
+  { "code": "CSTXXX", "date": "November 26, 2024 9:30:00", "name": "Program Elective-II", "id": 2 },  
+  { "code": "CSTXXX", "date": "November 29, 2024 9:30:00", "name": "Open Elective", "id": 3 },  
+  { "code": "MCN401", "date": "December 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id": 4 }  
             ],
         },
         "EC": {

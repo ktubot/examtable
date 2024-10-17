@@ -218,9 +218,21 @@ const examsDetails = {
                 { "code": "EST202", "date": "June 18, 2019 9:30:00", "name": "Data Structures", "id": 6 },
             ],
         },
+    },
+    "S8": { // Adding S4 section
+        "CS": {
+            "2019": [
+                { "code": "MAT201", "date": "October 26, 2019 9:30:00", "name": "Advanced Linear Algebra", "id": 1 },
+                { "code": "PHT200", "date": "May 31, 2019 9:30:00", "name": "Electromagnetism", "id": 2 },
+                { "code": "EST200", "date": "June 5, 2019 9:30:00", "name": "Thermodynamics", "id": 3 },
+                { "code": "EST220", "date": "June 10, 2019 9:30:00", "name": "Biomechanics", "id": 4 },
+                { "code": "HUN202", "date": "July 13, 2019 9:30:00", "name": "Technical Writing", "id": 5 },
+                { "code": "EST202", "date": "June 18, 2019 9:30:00", "name": "Data Structures", "id": 6 },
+            ],
+        },
+        // Add other branches and years as needed
     }
 };
-
 
 // Handle defaults
 var defaultBranch;

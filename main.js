@@ -219,6 +219,69 @@ const examsDetails = {
             ],
         },
     },
+    "S5": { // Adding S4 section
+        "CS": {
+            "2019": [
+            { "code": "CST301", "date": "August 25, 2024 09:30:00", "name": "Formal Languages & Automata Theory", "id": 1 },
+            {"code": "CST303", "date": "May 31, 2024 9:30:00", "name": "Computer Networks", "id":2},
+            {"code": "CST305", "date": "June 5, 2024 9:30:00", "name": "System Software", "id":3},
+            {"code": "CST307", "date": "June 10, 2024 9:30:00", "name": "Microprocessors & Microcontrollers ", "id":4},
+            {"code": "CST309", "date": "July 13, 2024 9:30:00", "name": "Management Of Software Systems", "id":5},
+            {"code": "MCN301", "date": "June 18, 2024 9:30:00", "name": "Disaster Management", "id":6},
+            ],
+        },
+        "EC": {
+            "2019": [
+           { "code": "ECT301", "date": "May 25, 2024 9:30:00", "name": "Linear Integrated Circuits", "id": 1 },
+            {"code": "ECT303", "date": "May 31, 2024 9:30:00", "name": "Solid State Devices", "id":2},
+            {"code": "ECT305", "date": "June 5, 2024 9:30:00", "name": "Logic Circuit Design", "id":3},
+            {"code": "ECT307", "date": "June 10, 2024 9:30:00", "name": "Network Theory", "id":4},
+            {"code": "HUT300/HUT310", "date": "July 13, 2024 9:30:00", "name": "IEFT / Management For Engineers", "id":5},
+            {"code": "MCN301", "date": "June 18, 2024 9:30:00", "name": "Disaster Management", "id":6},
+
+            ],
+        },
+        "ME": {
+            "2019": [
+            { "code": "MET301", "date": "May 25, 2024 9:30:00", "name": "Mechanics Of Machinery", "id": 1 },
+            {"code": "MET303", "date": "May 31, 2024 9:30:00", "name": "Thermal Engineering ", "id":2},
+            {"code": "MET305", "date": "June 5, 2024 9:30:00", "name": "Industrial & Systems Engineering ", "id":3},
+            {"code": "MET307", "date": "June 10, 2024 9:30:00", "name": "Machine Tools And Metrology", "id":4},
+            {"code": "HUT300/HUT310", "date": "July 13, 2024 9:30:00", "name": "IEFT / Management For Engineers", "id":5},
+            {"code": "MCN301", "date": "June 18, 2024 9:30:00", "name": "Disaster Management", "id":6},
+            ],
+        },
+        "CE": {
+            "2019": [
+            { "code": "CET301", "date": "May 25, 2024 9:30:00", "name": "Structural Analysis – I", "id": 1 },
+            {"code": "CET303", "date": "May 31, 2024 9:30:00", "name": "Design Of Concrete Structures", "id":2},
+            {"code": "CET305", "date": "June 5, 2024 9:30:00", "name": "Geotechnical Engineering – II", "id":3},
+            {"code": "CET307", "date": "June 10, 2024 9:30:00", "name": "Hydrology & Water Resources Engineering", "id":4},
+            {"code": "CET309", "date": "July 13, 2024 9:30:00", "name": "Construction Technology & Management", "id":5},
+            {"code": "MCN301", "date": "June 18, 2024 9:30:00", "name": "Disaster Management", "id":6},
+            ],
+        },
+        "EEE": {
+            "2019": [
+            { "code": "EET301", "date": "May 25, 2024 9:30:00", "name": "Partial Differential Equation & Complex Analysis", "id": 1 },
+            {"code": "EET303", "date": "May 31, 2024 9:30:00", "name": "Circuits And Networks", "id":2},
+            {"code": "EET305", "date": "June 5, 2024 9:30:00", "name": "Measurements & Instrumentation ", "id":3},
+            {"code": "EET307", "date": "June 10, 2024 9:30:00", "name": "Analog Electronics", "id":4},
+            {"code": "HUT300/HUT310", "date": "July 13, 2024 9:30:00", "name": "IEFT / Management For Engineers", "id":5},
+            {"code": "MCN301", "date": "June 18, 2024 9:30:00", "name": "Disaster Management", "id":6},
+            ],
+        },
+        "IT": {
+            "2019": [
+                { "code": "MAT201", "date": "October 26, 2019 9:30:00", "name": "Advanced Linear Algebra", "id": 1 },
+                { "code": "PHT200", "date": "May 31, 2019 9:30:00", "name": "Electromagnetism", "id": 2 },
+                { "code": "EST200", "date": "June 5, 2019 9:30:00", "name": "Thermodynamics", "id": 3 },
+                { "code": "EST220", "date": "June 10, 2019 9:30:00", "name": "Biomechanics", "id": 4 },
+                { "code": "HUN202", "date": "July 13, 2019 9:30:00", "name": "Technical Writing", "id": 5 },
+                { "code": "EST202", "date": "June 18, 2019 9:30:00", "name": "Data Structures", "id": 6 },
+            ],
+        },
+    },
     "S8": { // Adding S4 section
         "CS": {
             "2019": [

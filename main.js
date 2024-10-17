@@ -348,8 +348,91 @@ const examsDetails = {
             ],
         },
     },
+    "S7": { // Adding S4 section
+        "CS": {
+            "2019": [
+            { "code": "CST401", "date": "May 22, 2024 9:30:00", "name": "Artificial Intelligence", "id": 1 },
+            {"code": "CST4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
+            {"code": "CST4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
+            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+            ],
+        },
+        "EC": {
+            "2019": [
+            { "code": "ECT401", "date": "May 22, 2024 9:30:00", "name": "Wireless Communication", "id": 1 },
+            {"code": "ECT4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
+            {"code": "ECT4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
+            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+
+            ],
+        },
+        "ME": {
+            "2019": [
+            { "code": "MET401", "date": "May 22, 2024 9:30:00", "name": "Design Of Machine Elements", "id": 1 },
+            {"code": "MET4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
+            {"code": "MET4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
+            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+            ],
+        },
+        "CE": {
+            "2019": [
+            { "code": "CET401", "date": "May 22, 2024 9:30:00", "name": "Design Of Steel Structures ", "id": 1 },
+            {"code": "CET4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
+            {"code": "CET4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
+            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+            ],
+        },
+        "EE": {
+            "2019": [
+            { "code": "EET401", "date": "May 22, 2024 9:30:00", "name": "Advanced Control Systems", "id": 1 },
+            {"code": "EET4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
+            {"code": "EET4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
+            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+            ],
+        },
+        "IT": {
+            "2019": [
+            { "code": "ITT401", "date": "May 22, 2024 9:30:00", "name": "Data Analytics ", "id": 1 },
+            {"code": "ITT4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
+            {"code": "ITT4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
+            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+            ],
+        },
+    },
     "S8": { // Adding S4 section
         "CS": {
+            "2019": [
+            { "code": "CST402", "date": "May 22, 2024 9:30:00", "name": "Distributed Computing", "id": 1 },
+            {"code": "CST4XX", "date": "May 27, 2024 9:30:00", "name": "Program Elective 3", "id":2},
+            {"code": "CST4XX", "date": "May 30, 2024 9:30:00", "name": "Program Elective 4", "id":3},
+            {"code": "CST4XX", "date": "June 3, 2024 9:30:00", "name": "Program Elective 5", "id":4},
+            ],
+        },
+        "EC": {
+            "2019": [
+            { "code": "ECT402", "date": "May 22, 2024 9:30:00", "name": "Wireless Communications", "id": 1 },
+            {"code": "ECT4XX", "date": "May 27, 2024 9:30:00", "name": "Program Elective 3", "id":2},
+            {"code": "ECT4XX", "date": "May 30, 2024 9:30:00", "name": "Program Elective 4", "id":3},
+            {"code": "ECT4XX", "date": "June 3, 2024 9:30:00", "name": "Program Elective 5", "id":4},
+            ],
+        },
+        "EE": {
+            "2019": [
+            { "code": "EET402", "date": "May 22, 2024 9:30:00", "name": "Electrical System Design and Estimation", "id": 1 },
+            {"code": "EET4XX", "date": "May 27, 2024 9:30:00", "name": "Program Elective 3", "id":2},
+            {"code": "EET4XX", "date": "May 30, 2024 9:30:00", "name": "Program Elective 4", "id":3},
+            {"code": "EET4XX", "date": "June 3, 2024 9:30:00", "name": "Program Elective 5", "id":4},
+            ],
+        },
+        "ME": {
+            "2019": [
+            { "code": "MET402", "date": "May 22, 2024 9:30:00", "name": "Mechatronics", "id": 1 },
+            {"code": "MET4XX", "date": "May 27, 2024 9:30:00", "name": "Program Elective 3", "id":2},
+            {"code": "MET4XX", "date": "May 30, 2024 9:30:00", "name": "Program Elective 4", "id":3},
+            {"code": "MET4XX", "date": "June 3, 2024 9:30:00", "name": "Program Elective 5", "id":4},
+            ],
+        },
+        "CE": {
             "2019": [
                 { "code": "MAT201", "date": "October 26, 2019 9:30:00", "name": "Advanced Linear Algebra", "id": 1 },
                 { "code": "PHT200", "date": "May 31, 2019 9:30:00", "name": "Electromagnetism", "id": 2 },
@@ -357,6 +440,15 @@ const examsDetails = {
                 { "code": "EST220", "date": "June 10, 2019 9:30:00", "name": "Biomechanics", "id": 4 },
                 { "code": "HUN202", "date": "July 13, 2019 9:30:00", "name": "Technical Writing", "id": 5 },
                 { "code": "EST202", "date": "June 18, 2019 9:30:00", "name": "Data Structures", "id": 6 },
+            ],
+        },
+        "IT": {
+            "2019": [
+            { "code": "ITT402", "date": "May 22, 2024 9:30:00", "name": "Cryptography and Network Security", "id": 1 },
+            {"code": "ITT4XX", "date": "May 27, 2024 9:30:00", "name": "Program Elective 3", "id":2},
+            {"code": "ITT4XX", "date": "May 30, 2024 9:30:00", "name": "Program Elective 4", "id":3},
+            {"code": "ITT4XX", "date": "June 3, 2024 9:30:00", "name": "Program Elective 5", "id":4},
+
             ],
         },
         // Add other branches and years as needed

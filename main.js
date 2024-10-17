@@ -85,7 +85,7 @@ const examsDetails = {
 { "code": "GCEST104", "date": "January 8, 2025 1:30:00", "name": "IME&ICE", "id": 4 },
 { "code": "UCEST105", "date": "January 10, 2025 1:30:00", "name": "Python", "id": 5 }
             ]
-        }
+        },
         "IT": {
             "2019": [
                 { "code": "MAT101", "date": "October 26, 2019 9:30:00", "name": "Linear Algebra And Calculus", "id": 1 },

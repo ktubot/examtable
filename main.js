@@ -103,7 +103,8 @@ const examsDetails = {
 { "code": "UCEST105", "date": "January 10, 2025 1:30:00", "name": "Python", "id": 5 }
             ]
         },
-    };
+    }
+};
     "S3": {
         "CS": {
             "2019": [

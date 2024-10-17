@@ -17,7 +17,7 @@ h1 {
     font-weight: 400;
     color: #555;
     margin-top: -10px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 /* Media query for mobile devices (screen width 768px or less) */

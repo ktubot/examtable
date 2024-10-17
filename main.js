@@ -11,11 +11,11 @@ const examsDetails = {
                 {"code": "EST102", "date": "June 18, 2019 9:30:00", "name": "Programming in C", "id":6},
             ],
             "2024": [
-                { "code": "MAT101", "date": "October 26, 2024 9:30:00", "name": "Linear Algebra And Calculus", "id": 1 },
-                {"code": "PHT100", "date": "May 31, 2024 9:30:00", "name": "Engineering Physics", "id":2},
-                {"code": "EST100", "date": "June 5, 2024 9:30:00", "name": "Engineering Mechanics", "id":3},
-                {"code": "EST120", "date": "June 10, 2024 9:30:00", "name": "BME & BCE", "id":4},
-                {"code": "HUN102", "date": "July 13, 2024 9:30:00", "name": "Professional Communication", "id":5},
+                { "code": "MAT101", "date": "October 26, 2024 9:30:00", "name": "Mathematics For Information Science-1", "id": 1 },
+                {"code": "PHT100", "date": "May 31, 2024 9:30:00", "name": "Physics For Information Science", "id":2},
+                {"code": "EST100", "date": "June 5, 2024 9:30:00", "name": "Engineering Graphics ", "id":3},
+                {"code": "EST120", "date": "June 10, 2024 9:30:00", "name": "Introduction To Electrical & Electronics Engineering", "id":4},
+                {"code": "HUN102", "date": "July 13, 2024 9:30:00", "name": "Algorithmic Thinking With Python", "id":5},
                 {"code": "EST102", "date": "June 18, 2024 9:30:00", "name": "Programming in C", "id":6},
             ]
         },

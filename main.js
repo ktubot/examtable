@@ -115,6 +115,46 @@ const examsDetails = {
                 { "code": "EST102", "date": "June 18, 2019 9:30:00", "name": "Programming in C", "id": 6 },
             ],
         },
+        "CS": {
+            "2019": [
+                { "code": "MAT101", "date": "October 26, 2019 9:30:00", "name": "Linear Algebra And Calculus", "id": 1 },
+                { "code": "PHT100", "date": "May 31, 2019 9:30:00", "name": "Engineering Physics", "id": 2 },
+                { "code": "EST100", "date": "June 5, 2019 9:30:00", "name": "Engineering Mechanics", "id": 3 },
+                { "code": "EST120", "date": "June 10, 2019 9:30:00", "name": "BME & BCE", "id": 4 },
+                { "code": "HUN102", "date": "July 13, 2019 9:30:00", "name": "Professional Communication", "id": 5 },
+                { "code": "EST102", "date": "June 18, 2019 9:30:00", "name": "Programming in C", "id": 6 },
+            ],
+        },
+        "ECE": {
+            "2019": [
+            { "code": "MAT201", "date": "May 25, 2024 9:30:00", "name": "Partial Differential Equation & Complex Analysis", "id": 1 },
+            {"code": "ECT201", "date": "May 31, 2024 9:30:00", "name": "Solid State Devices", "id":2},
+            {"code": "ECT203", "date": "June 5, 2024 9:30:00", "name": "Logic Circuit Design", "id":3},
+            {"code": "ECT205", "date": "June 10, 2024 9:30:00", "name": "Network Theory", "id":4},
+            {"code": "HUT200/EST200", "date": "July 13, 2024 9:30:00", "name": "Design And Engineering / Professional Communication", "id":5},
+            {"code": "MCN201", "date": "June 18, 2024 9:30:00", "name": "Sustainable Engineering", "id":6},
+            ],
+        },
+        "ME": {
+            "2019": [
+            { "code": "MAT201", "date": "May 25, 2024 9:30:00", "name": "Partial Differential Equation & Complex Analysis", "id": 1 },
+            {"code": "MET201", "date": "May 31, 2024 9:30:00", "name": "Mechanics Of Solids", "id":2},
+            {"code": "MET203", "date": "June 5, 2024 9:30:00", "name": "Mechanics Of Fluids", "id":3},
+            {"code": "MET205", "date": "June 10, 2024 9:30:00", "name": "Metallurgy & Material Science", "id":4},
+            {"code": "HUT200/EST200", "date": "July 13, 2024 9:30:00", "name": "Design And Engineering / Professional Communication", "id":5},
+            {"code": "MCN201", "date": "June 18, 2024 9:30:00", "name": "Sustainable Engineering", "id":6},
+            ],
+        },
+        "CE": {
+            "2019": [
+            { "code": "MAT201", "date": "May 25, 2024 9:30:00", "name": "Partial Differential Equation & Complex Analysis", "id": 1 },
+            {"code": "CET201", "date": "May 31, 2024 9:30:00", "name": "Mechanics Of Solids", "id":2},
+            {"code": "CET203", "date": "June 5, 2024 9:30:00", "name": "Fluid Mechanics & Hydraulics", "id":3},
+            {"code": "CET205", "date": "June 10, 2024 9:30:00", "name": "Surveying & Geomatics", "id":4},
+            {"code": "HUT200/EST200", "date": "July 13, 2024 9:30:00", "name": "Design And Engineering / Professional Communication", "id":5},
+            {"code": "MCN201", "date": "June 18, 2024 9:30:00", "name": "Sustainable Engineering", "id":6},
+            ],
+        },
         // Add other branches and years as needed
     }
 };

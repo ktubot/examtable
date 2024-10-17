@@ -127,12 +127,12 @@ const examsDetails = {
         },
         "ME": {
             "2019": [
-            { "code": "MAT201", "date": "May 25, 2024 9:30:00", "name": "Partial Differential Equation & Complex Analysis", "id": 1 },
-            {"code": "MET201", "date": "May 31, 2024 9:30:00", "name": "Mechanics Of Solids", "id":2},
-            {"code": "MET203", "date": "June 5, 2024 9:30:00", "name": "Mechanics Of Fluids", "id":3},
-            {"code": "MET205", "date": "June 10, 2024 9:30:00", "name": "Metallurgy & Material Science", "id":4},
-            {"code": "HUT200/EST200", "date": "July 13, 2024 9:30:00", "name": "Design And Engineering / Professional Communication", "id":5},
-            {"code": "MCN201", "date": "June 18, 2024 9:30:00", "name": "Sustainable Engineering", "id":6},
+  { "code": "MAT201", "date": "November 23, 2024 9:30:00", "name": "Partial Differential Equation And Complex Analysis", "id": 1 },  
+  { "code": "MET201", "date": "November 27, 2024 9:30:00", "name": "Mechanics Of Solids", "id": 2 },  
+  { "code": "MET203", "date": "November 30, 2024 9:30:00", "name": "Mechanics Of Fluids", "id": 3 },  
+  { "code": "MET205", "date": "December 4, 2024 9:30:00", "name": "Metallurgy And Material Science", "id": 4 },  
+  { "code": "EST200/HUT200", "date": "December 6, 2024 9:30:00", "name": "Design And Engineering / Professional Ethics", "id": 5 },  
+  { "code": "MCN201", "date": "December 13, 2024 9:30:00", "name": "Sustainable Engineering", "id": 6 }  
             ],
         },
         "CE": {

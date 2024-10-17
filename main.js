@@ -120,6 +120,10 @@ if (localStorage.getItem('year')) {
 } else {
     defaultYear = "2024";
 }
+window.addEventListener('load', function() {
+    localStorage.clear();
+});
+
 document.addEventListener("DOMContentLoaded", function () {
     const semDropdown = document.getElementById('sem');
     const branchDropdown = document.getElementById('branch');

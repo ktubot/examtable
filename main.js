@@ -233,12 +233,12 @@ const examsDetails = {
         },
         "ME": {
             "2019": [
-            { "code": "MET301", "date": "May 25, 2024 9:30:00", "name": "Mechanics Of Machinery", "id": 1 },
-            {"code": "MET303", "date": "May 31, 2024 9:30:00", "name": "Thermal Engineering ", "id":2},
-            {"code": "MET305", "date": "June 5, 2024 9:30:00", "name": "Industrial & Systems Engineering ", "id":3},
-            {"code": "MET307", "date": "June 10, 2024 9:30:00", "name": "Machine Tools And Metrology", "id":4},
-            {"code": "HUT300/HUT310", "date": "July 13, 2024 9:30:00", "name": "IEFT / Management For Engineers", "id":5},
-            {"code": "MCN301", "date": "June 18, 2024 9:30:00", "name": "Disaster Management", "id":6},
+  { "code": "MET301", "date": "November 25, 2024 9:30:00", "name": "Mechanics Of Machinery", "id": 1 },  
+  { "code": "MET303", "date": "November 28, 2024 9:30:00", "name": "Thermal Engineering", "id": 2 },  
+  { "code": "MET305", "date": "December 2, 2024 9:30:00", "name": "Industrial & Systems Engineering", "id": 3 },  
+  { "code": "MET307", "date": "December 5, 2024 9:30:00", "name": "Machine Tools And Metrology", "id": 4 },  
+  { "code": "HUT300/HUT310", "date": "December 7, 2024 9:30:00", "name": "IEFT / Management For Engineers", "id": 5 },  
+  { "code": "MCN301", "date": "December 12, 2024 9:30:00", "name": "Disaster Management", "id": 6 } 
             ],
         },
         "CE": {
@@ -358,10 +358,10 @@ const examsDetails = {
         },
         "ME": {
             "2019": [
-            { "code": "MET401", "date": "May 22, 2024 9:30:00", "name": "Design Of Machine Elements", "id": 1 },
-            {"code": "MET4XX", "date": "May 27, 2024 9:30:00", "name": "Elective - II", "id":2},
-            {"code": "MET4XX", "date": "May 30, 2024 9:30:00", "name": "Elective - Open", "id":3},
-            {"code": "MCN401", "date": "June 3, 2024 9:30:00", "name": "Industrial Safety Engineering", "id":4},
+  { "code": "MET401", "date": "November 22, 2024 9:30:00", "name": "DME", "id": 1 },  
+  { "code": "METXXX", "date": "November 26, 2024 9:30:00", "name": "PROGRAM ELE-II", "id": 2 },  
+  { "code": "METXXX", "date": "November 29, 2024 9:30:00", "name": "OPEN ELECTIVE", "id": 3 },  
+  { "code": "MCN401", "date": "December 3, 2024 9:30:00", "name": "ISE", "id": 4 } 
             ],
         },
         "CE": {
